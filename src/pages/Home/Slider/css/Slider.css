@@ -1,0 +1,47 @@
+.primary-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #ff6f61;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .primary-btn:hover {
+    background: #ff3b2f;
+  }
+  
+  .hero__social a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .hero__social a:hover {
+    color: #ff6f61;
+  }
+  
+  .arrow_right::before {
+    content: '\f061'; /* FontAwesome arrow right icon */
+    font-family: 'FontAwesome';
+    margin-left: 5px;
+  }
+  
+  .hero__items {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .hero__items.active {
+    display: block;
+    opacity: 1;
+  }
+  

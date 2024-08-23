@@ -1,0 +1,49 @@
+.profiles{
+    display: flex;
+    align-items: start;
+}
+.link-profile{
+    width:150px ;
+   
+}
+.link-profile a{
+    text-decoration: none;
+    color: #000;
+}
+.link-profile-item{
+    margin-top: 10px  ;
+   
+}
+.item-link{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px 0;
+}
+.item-link a{
+  
+    padding-top: 5px ;
+} 
+.link-profile-account{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    flex: 1;
+}
+.link-profile-account p{
+    font-size: 18px;
+    
+}
+.profile-picture-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+ 
+}
+.icon{
+    font-size: 20px;
+    color: #0046ab;
+    margin-right: 5px;
+    
+}

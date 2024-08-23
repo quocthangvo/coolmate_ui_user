@@ -1,0 +1,157 @@
+/* OrderDetail.css */
+
+
+.order-detail-container {
+    
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .order-summary,
+  .order-items,
+  .order-shipping {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .order-summary h3,
+  .order-items h3,
+  .order-shipping h3 {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .order-summary p,
+  .order-items p,
+  .order-shipping p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .order-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .order-item:last-child {
+    border-bottom: none;
+  }
+  
+  .order-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 4px;
+  }
+  
+  .order-item-info {
+    flex: 1;
+  }
+  
+  .order-item-info h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .order-item-info p {
+    margin: 5px 0;
+  }
+  
+  .price-selling {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .price-promotion {
+    color: #e53935;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .order-shipping p {
+    font-size: 16px;
+  }
+  
+  .order-shipping p strong {
+    color: #333;
+  }
+  
+  .tabs {
+    
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .back-button {
+    
+    background: none;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  
+  .price-selling {
+    font-size: 16px;
+  }
+  
+  .price-promotion {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  
+  
+  .price-highlight {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sale-button{
+    background-color: #e53935;
+    padding: 10px 40px;
+
+  }
+  .sale-button button{
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .order-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .order-item-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+  

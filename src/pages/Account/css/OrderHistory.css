@@ -1,0 +1,153 @@
+.orders{
+  display: flex;
+}
+.order-form{
+    margin: 0px 20px;
+    width: 100%;
+    background-color: #fafafa;
+
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.tab-button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-button.active {
+  background-color: #fff;
+  color: #ff4d4d;
+  border-bottom: 1px solid #ff4d4d;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+}
+.order-actions{
+  text-align: end;
+  margin: 10px 20px;
+}
+.order-actions p{
+  margin: 20px 0 20px 10px;
+  font-size: 24px;
+  color: red;
+}
+.order-actions div{
+ display: flex;
+ align-items: center;
+ justify-content: end;
+}
+
+.order-actions a{
+  background-color: #ff4d4d;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+ }
+
+.order-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.order-item-card {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  flex: 1 1 calc(25% - 15px); 
+  box-sizing: border-box;
+}
+
+.order-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+
+}
+
+.order-item-details {
+  flex: 1;
+}
+
+.order-item-details h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.order-item-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.no-orders {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 16px;
+}
+.order-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-item-prices {
+  display: flex;
+}
+
+.price-selling {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.price-promotion {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.item-button{
+  background-color: #ff4d4d;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+.empty-cart{
+  height: 500px;
+  width: 700px;
+}
+.order-actions .orders {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}

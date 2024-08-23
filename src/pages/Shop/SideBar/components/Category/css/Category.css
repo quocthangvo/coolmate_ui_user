@@ -1,0 +1,42 @@
+
+  .card-heading {
+    
+    color: #000;
+  }
+  .card-heading button{
+  background-color: #fff;
+  }
+  
+  .accordion-buttons {
+    color: #000; 
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px; 
+    cursor: pointer; 
+    width: 100%; 
+    text-align: left; 
+    font-weight: bold;
+  }
+  
+
+  
+
+  .card-body .nice-scroll{
+    margin: 0;
+  }
+  
+
+  
+  li {
+    padding: 5px; /* Padding inside list items */
+    
+  }
+  
+  
+  
+  span {
+    font-size: 16px; /* Font size for category names */
+    color: #333; /* Text color */
+    cursor: pointer;
+  }
+  

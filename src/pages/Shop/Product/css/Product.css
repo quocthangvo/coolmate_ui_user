@@ -1,0 +1,118 @@
+.form-product{
+  border: 1px solid #ccc;
+}
+.form-product:hover{
+border: 1px solid #ff5722;
+}
+.product__item{
+  text-decoration: none;
+}
+  .product__item:hover {
+    cursor: pointer;
+    color: red;
+  }
+
+  .product__item__text {
+    position: relative;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .product__item__text .add-cart {
+    position: absolute;
+    left: 35%;
+    transform: translate(-50%, -60%);   
+    color: red;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, top 0.3s ease-in-out;
+  }
+  
+  .product__item:hover .add-cart {
+    opacity: 1;
+  }
+  .product__item__text .price{
+    font-size: 18px;
+    color: #ff5722;
+  }
+  .product__item__text .tilte_product{
+    height: 45px;
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .product__item__text .product__color__select{
+    bottom: 5%;
+  }
+  .product__item__text .product__color__select label{
+    height: 20px;
+    width: 20px;
+  }
+  .row .col-lg-3{
+    padding: 0px 5px;
+  }
+
+/* Container cho ô tìm kiếm */
+/* Container for the search box */
+.product__search {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Style for the search input */
+.product__search input {
+  width: 270px;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Optional: Adds rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.product__search input:focus {
+  border-color: #ff5722;
+  outline: none; /* Removes default focus outline */
+}
+
+/* Style for the search button */
+.product__search button {
+  position: absolute;
+  top: 50%;
+  left: 25%; 
+  transform: translateY(-50%);
+  background: none; /* Remove default button styling */
+  border: none; /* Remove default border */
+  cursor: pointer;
+}
+
+.product__search button svg {
+  font-size: 20px;
+  color: #000; /* Icon color */
+}
+
+/* Optional: Add hover effect for the search button */
+.product__search button:hover svg {
+  color: #e64a19; 
+}
+
+.clear-filter-btn {
+  margin-left: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.clear-filter-btn:hover {
+  background-color: #ddd;
+  color: #ff5722;
+}

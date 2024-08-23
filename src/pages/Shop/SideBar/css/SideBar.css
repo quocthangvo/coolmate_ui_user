@@ -1,0 +1,36 @@
+.accordion-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.accordion-button:hover {
+    color: #0056b3;
+}
+.accordion .card {
+    margin-bottom: 0;
+    
+ }
+ 
+ 
+ .shop__sidebar__accordion .card-body{
+ padding: 5px;
+ }
+ .nice-scroll a {
+     display: block; /* Hiển thị thành block để dễ dàng sử dụng click */
+     padding: 5px; /* Padding cho liên kết */
+     text-decoration: none; /* Loại bỏ gạch dưới cho liên kết */
+     border-radius: 5px; /* Bo góc cho liên kết */
+     color: #000; /* Màu chữ mặc định */
+ }
+ 
+ /* Đổi màu nền và chữ của liên kết khi hover */
+ .nice-scroll a:hover {
+     background-color: #f0f0f0; /* Màu nền khi hover */
+     color: #333; /* Màu chữ khi hover */
+ }
+ 

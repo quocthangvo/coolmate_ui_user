@@ -1,0 +1,13 @@
+.auth{
+    background-color: #EE4E2E;
+}
+.form-auth{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.form-auth img{
+ height: 350px;
+ width: 350px   ;   
+}
